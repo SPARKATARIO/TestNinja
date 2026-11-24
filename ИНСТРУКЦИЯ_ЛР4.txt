@@ -1,0 +1,12 @@
+ЛАБОРАТОРНАЯ РАБОТА 4 (в методичке обозначена как 3)
+Откройте TestNinja.sln в Visual Studio. Восстановите NuGet пакеты для решения.
+Если адаптер NUnit не обнаруживает тесты, установите через NuGet NUnit 3.8.1 и NUnit3TestAdapter 3.8.0 в TestNinja.unitTests.
+Исходные файлы: TestNinja/Fundamentals.
+Тесты: TestNinja.unitTests.
+Общее 1: Math_Lab2Tests.Add_WhenCalled_ReturnsSumOfArguments, а намеренно провальный тест Add_IncorrectExpectedValue_Fails помечен Explicit.
+Индивидуальное 1: Math_Lab1Tests (вариант 17). Намеренно провальный тест и тест на дефект исходного метода помечены Explicit.
+Для демонстрации провального теста выберите его в Test Explorer и запустите отдельно (Explicit может потребовать явного запуска в зависимости от версии адаптера).
+Общее 2: Math_Lab2, HtmlFormatter, CustomerController, ErrorLogger и соответствующие тесты.
+Индивидуальное 2: Assignment1..5 и Assignment1Tests..5Tests, тема продуктовый магазин.
+ВНИМАНИЕ: исходный метод варианта 17 сохранён без изменений и содержит a + b % 10 вместо (a+b)%10.
+Запуск и сборка в Visual Studio здесь не проводились; убедитесь в результате на своём компьютере.
